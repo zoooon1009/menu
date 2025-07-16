@@ -1,0 +1,44 @@
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #f9f5f0;
+  color: #333;
+  margin: 0;
+  padding: 2em;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  color: #6b4c3b;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+.menu-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 1em;
+}
+.menu-label {
+  flex-grow: 1;
+}
+.menu-price {
+  font-weight: bold;
+  color: #6b4c3b;
+}
+.summary {
+  background: #fffbe6;
+  padding: 1em;
+  border-radius: 8px;
+  margin-top: 2em;
+  font-size: 1.2em;
+}
